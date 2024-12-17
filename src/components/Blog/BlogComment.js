@@ -81,7 +81,7 @@ export default function BlogComment() {
               <li key={index} className="comment-item">
                 <div className="comment d-md-flex align-items-center gap-4">
                   <div className="thumb flex-shrink-0 mb-lg-0 mb-4">
-                    <Image src={comment.avatar} alt="visitor" />
+                    <img src={comment.avatar} alt="visitor" />
                   </div>
                   <div className="content flex-grow-1">
                     <div className="header d-md-flex align-items-center justify-content-between">
@@ -115,7 +115,7 @@ export default function BlogComment() {
                       <li key={i} className="comment-item">
                         <div className="comment d-md-flex align-items-center gap-4">
                           <div className="thumb flex-shrink-0 mb-lg-0 mb-4">
-                            <Image src={reply.avatar} alt="visitor" />
+                            <img src={reply.avatar} alt="visitor" />
                           </div>
                           <div className="content flex-grow-1">
                             <div className="header d-md-flex align-items-center justify-content-between">

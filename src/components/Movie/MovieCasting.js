@@ -13,7 +13,7 @@ export default function MovieCasting() {
               <li key={index} className="cast--item">
                 <div className="cast--link text-center">
                   <div className="cast--thumb">
-                    <Image src={cast.image} alt="caster" className="person" />
+                    <img src={cast.image} alt="caster" className="person" />
                   </div>
                   <h4 className="cast--name text-uppercase gradient-link">
                     {cast.name}

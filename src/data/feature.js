@@ -1,7 +1,7 @@
-import featherIconOne from "@/../public/assets/images/icons/feathur-1.svg";
-import featherIconTwo from "@/../public/assets/images/icons/feathur-2.svg";
-import featherIconThree from "@/../public/assets/images/icons/feathur-3.svg";
-import featherIconFour from "@/../public/assets/images/icons/feathur-4.svg";
+// import featherIconOne from "/assets/images/icons/feathur-1.svg";
+// import featherIconTwo from "/assets/images/icons/feathur-2.svg";
+// import featherIconThree from "/assets/images/icons/feathur-3.svg";
+// import featherIconFour from "/assets/images/icons/feathur-4.svg";
 import service from "./service";
 
 const liveStreamingFeatureData = {
@@ -19,7 +19,7 @@ const liveStreamingFeatureData = {
   },
   features: [
     {
-      image: featherIconOne,
+      image: "/assets/images/icons/feathur-1.svg",
       title: {
         ar: "فيديوهات تعليمية",
         en: "Educational videos",
@@ -46,7 +46,7 @@ const liveStreamingFeatureData = {
       }
     },
     {
-      image: featherIconTwo,
+      image: "/assets/images/icons/feathur-2.svg",
       title: {
         ar: "آمن للأطفال",
         en: "Safe for kids",
@@ -73,7 +73,7 @@ const liveStreamingFeatureData = {
       }
     },
     {
-      image: featherIconThree,
+      image: "/assets/images/icons/feathur-3.svg",
       title: {
         ar: "شاهد من أي مكان",
         en: "Watch from anywhere",
@@ -100,7 +100,7 @@ const liveStreamingFeatureData = {
       }
     },
     {
-      image: featherIconFour,
+      image: "/assets/images/icons/feathur-4.svg",
       title: {
         ar: "ممتع وجذاب",
         en: "Fun and Engaging",

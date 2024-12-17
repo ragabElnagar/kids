@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import logo from "@/../public/assets/images/logo.png";
+import logo from "/assets/images/logo.png";
 
 export default function FooterTwo() {
   return (
@@ -37,7 +37,7 @@ export default function FooterTwo() {
           </div>
           <div className="col-lg-2 text-center">
             <Link href="/">
-              <Image src={logo} alt="logo" />
+              <img src={logo} alt="logo" />
             </Link>
           </div>
           <div className="col-lg-5 text-lg-end text-center">

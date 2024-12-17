@@ -11,7 +11,7 @@ export default function FaqOne() {
       <div className="row justify-content-between">
         <div className="col-xxl-4 col-lg-5 col-md-10 mb-lg-0 mb-4">
           <h3 className="section-title mb-4" style={{color: 'var(--heading-color-dark)'}}>{data.title[lang]}</h3>
-          <Image src={data.image} alt="icon" />
+          <img src={data.image} alt="icon" />
         </div>
         <div className="col-xxl-6 col-lg-7">
           {data.faqs && data.faqs.length > 0 && (

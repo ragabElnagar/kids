@@ -49,7 +49,7 @@ export default function OffscreenMenu() {
           <div className="menu_header d-flex align-items-center justify-content-between">
             <div className="logo">
               <Link className="main-logo me-lg-5 me-4" href={data.href}>
-                <Image src={data.logo} alt="img" style={{width: '90px'}} />
+                <img src={data.logo} alt="img" style={{width: '90px'}} />
               </Link>
             </div>
             <div

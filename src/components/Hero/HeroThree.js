@@ -126,11 +126,11 @@ export default function HeroThree() {
               </div>
               <div class="col-3 align-self-xl-end">
                 <div class="d-flex align-item-xl-end justify-content-xl-end gap-2">
-                  <Image src={fullHDIcon} alt="icon" />
-                  <Image src={whiteIcon} alt="icon" />
-                  <Image src={ccIcon} alt="icon" />
-                  <Image src={adIcon} alt="icon" />
-                  <Image src={sdhIcon} alt="icon" />
+                  <img src={fullHDIcon} alt="icon" />
+                  <img src={whiteIcon} alt="icon" />
+                  <img src={ccIcon} alt="icon" />
+                  <img src={adIcon} alt="icon" />
+                  <img src={sdhIcon} alt="icon" />
                 </div>
               </div>
             </div>

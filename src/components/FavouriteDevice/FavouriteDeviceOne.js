@@ -57,7 +57,7 @@ export default function FavouriteDeviceOne() {
             </div>
           </div>
           <div className="col-xxl-7 col-xl-6 col-lg-5 col-md-8 col-sm-9 offset-0 enjoy-favourite-img">
-            <Image src={data.image} alt="responsive-device" />
+            <img src={data.image} alt="responsive-device" />
           </div>
         </div>
       </div>

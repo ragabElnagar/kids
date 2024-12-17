@@ -16,10 +16,10 @@ export default function CategoryBrowseList() {
         <div className="d-flex align-items-center gap-2">
           <p className="fw-medium lh-1 mb-0">View As</p>
           <Link href="category-list" className="view-style-btn active">
-            <Image src={listIcon} alt="icon" />
+            <img src={listIcon} alt="icon" />
           </Link>
           <Link href="category-grid" className="view-style-btn">
-            <Image src={gridIcon} alt="icon" />
+            <img src={gridIcon} alt="icon" />
           </Link>
         </div>
       </div>

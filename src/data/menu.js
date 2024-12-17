@@ -1,7 +1,7 @@
-import logo from "@/../public/assets/images/logo.png";
+// import logo from "/assets/images/logo.png";
 
 const menuOneData = {
-  logo: logo,
+  logo: "/assets/images/logo.png",
   href: "/",
   btnText: {
     en: "Account",

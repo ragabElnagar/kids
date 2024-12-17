@@ -1,4 +1,3 @@
-import faqImage from "@/../public/assets/images/icons/faq.svg";
 
 const faqData = {
   title: {
@@ -8,8 +7,12 @@ const faqData = {
     es: "Respuestas a nuestras preguntas más frecuentes",
     fr: "Réponses à nos questions les plus fréquemment posées",
     th: "คำตอบสำหรับคำถามที่พบบ่อยที่สุดของเรา",
-  },
-  image: faqImage,
+    pl: "Odpowiedzi na najczęściej zadawane pytania",
+    ro: "Răspunsuri la cele mai frecvente întrebări",
+    cz: "Odpovědi na naše nejčastější dotazy",
+    ni: "Ìdáhùn sí àwọn ìbéèrè tí a máa n béèrè"
+  },  
+  image: "/assets/images/icons/faq.svg",
   faqs: [
     {
       title: {

@@ -127,7 +127,7 @@ export default function ComingSoonPage() {
           </div>
           <div className="col-lg-6 d-lg-block d-none">
             <div className="thumb">
-              <Image src={comingSoonBackground} alt="img" />
+              <img src={comingSoonBackground} alt="img" />
             </div>
           </div>
         </div>

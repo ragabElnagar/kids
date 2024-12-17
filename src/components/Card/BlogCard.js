@@ -9,7 +9,7 @@ export default function BlogCard({ blog, className = "" }) {
     <div className={`blog bg-primary ${className}`}>
       <div className="thumb position-relative">
         <Link href="#">
-          <Image className="w-100" src={blog.image} alt="blog" />
+          <img className="w-100" src={blog.image} alt="blog" />
         </Link>
         <div className="badge position-absolute bottom-0 bg-primary p-2">
           <div className="type lh-1 p-2 fs-18 text-uppercase fw-normal ls-1">
@@ -20,11 +20,11 @@ export default function BlogCard({ blog, className = "" }) {
       <div className="content">
         <div className="d-flex align-items-center gap-4 fs-18 mb-3 lh-1">
           <div className="d-inline-flex align-items-center gap-1">
-            <Image src={profileIcon} alt="author" />
+            <img src={profileIcon} alt="author" />
             <div className="author-name text-uppercase">{blog.author}</div>
           </div>
           <div className="d-inline-flex align-items-center gap-1">
-            <Image src={clockIcon} alt="time" />
+            <img src={clockIcon} alt="time" />
             <div className="time ms-1 flex-shrink-0 text-uppercase">
               {blog.date}
             </div>

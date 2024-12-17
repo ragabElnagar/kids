@@ -8,7 +8,7 @@ export default function MovieListCard({ movie }) {
     <div className="playlist--item">
       <div className="d-md-flex align-items-center gap-4">
         <div className="thumb">
-          <Image src={movie.image} alt="playlist" />
+          <img src={movie.image} alt="playlist" />
         </div>
         <div className="content">
           <h3 className="text-uppercase lh-1 fw-medium mb-1">
@@ -67,7 +67,7 @@ export default function MovieListCard({ movie }) {
         </div>
       </div>
       <button className="remove-btn gradient-border-button lh-1 text-uppercase text-center fs-6 gap-2">
-        <Image src={deleteImage} alt="delete" />
+        <img src={deleteImage} alt="delete" />
         <span className="mt-1">{movie.btnText}</span>
       </button>
     </div>

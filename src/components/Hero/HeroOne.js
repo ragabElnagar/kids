@@ -85,7 +85,7 @@ export default function HeroOne() {
                 style={{ objectFit: "cover" }}
               />
               <div className="thumb">
-                <Image src={slide.image} alt="card-img" className="w-100" />
+                <img src={slide.image} alt="card-img" className="w-100" />
               </div>
               <div className="container position-absolute top-50 start-50 translate-middle mt-5">
                 <div className="row justify-content-lg-between justify-content-center">
@@ -144,7 +144,7 @@ export default function HeroOne() {
                 className="hero-movie-card text-center swiper-slide"
               >
                 <div className="thumb">
-                  <Image src={cardSlide.image} alt="card-img" />
+                  <img src={cardSlide.image} alt="card-img" />
                 </div>
                 <div className="content mt-3">
                   <h3 className="card-title">{cardSlide.title}</h3>

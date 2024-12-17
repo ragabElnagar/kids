@@ -7,13 +7,13 @@ export default function CategoryCardTwo({ category }) {
       {/* <!-- Thumbnail --> */}
       <div className="thumbnail position-relative flex-grow-1">
         <div className="thumb thumb--one">
-          <Image src={category.imageOne} alt="card-img" className="card-img" />
+          <img src={category.imageOne} alt="card-img" className="card-img" />
         </div>
         <div className="thumb thumb--two">
-          <Image src={category.imageTwo} alt="card-img" className="card-img" />
+          <img src={category.imageTwo} alt="card-img" className="card-img" />
         </div>
         <div className="thumb thumb--three">
-          <Image
+          <img
             src={category.imageThree}
             alt="card-img"
             className="card-img"

@@ -141,7 +141,7 @@ export default function MovieBanner() {
           <div className="col-3 align-self-xl-end">
             <div className="d-flex align-item-xl-end justify-content-xl-end gap-2">
               {data.icons.map((icon, index) => (
-                <Image key={index} src={icon} alt="icon" />
+                <img key={index} src={icon} alt="icon" />
               ))}
             </div>
           </div>

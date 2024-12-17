@@ -17,7 +17,7 @@ export default function MovieCardTwo({ movie }) {
     <div className="movie-card-small position-relative style-three">
       {/* <!-- Card Thumbnail --> */}
       <div className="thumb">
-        <Image src={movie.image} alt="card-img" className="w-100" />
+        <img src={movie.image} alt="card-img" className="w-100" />
       </div>
       {/* <!-- Play Button --> */}
       <VideoOne src={movie.videoSrc} />
@@ -30,15 +30,15 @@ export default function MovieCardTwo({ movie }) {
         </h4>
         <ul className="movie-info">
           <li>
-            <Image src={starIcon} alt="star" />
+            <img src={starIcon} alt="star" />
             <span>{movie.rating}</span>
           </li>
           <li>
-            <Image src={clockIcon} alt="clock" />
+            <img src={clockIcon} alt="clock" />
             <span>{movie.duration}</span>
           </li>
           <li>
-            <Image src={qualityIcon} alt="4k" />
+            <img src={qualityIcon} alt="4k" />
             <span>{movie.quality} Quality</span>
           </li>
         </ul>
@@ -56,16 +56,16 @@ export default function MovieCardTwo({ movie }) {
       {/* <!-- Cards Options --> */}
       <div className="options">
         <button className="option-btn options--1">
-          <Image src={playlistIcon} alt="playlist" />
+          <img src={playlistIcon} alt="playlist" />
         </button>
         <button className="option-btn options--2">
-          <Image src={castingIcon} alt="casting" />
+          <img src={castingIcon} alt="casting" />
         </button>
         <button className="option-btn options--3">
-          <Image src={favouriteIcon} alt="favourite" />
+          <img src={favouriteIcon} alt="favourite" />
         </button>
         <button className="option-btn options--4">
-          <Image src={shareIcon} alt="share" />
+          <img src={shareIcon} alt="share" />
         </button>
       </div>
     </div>

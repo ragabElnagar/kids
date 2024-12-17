@@ -9,7 +9,11 @@ export const Categories = {
       fr: 'Général',
       id: 'Umum',
       th: 'ทั่วไป',
-      es: 'General'
+      es: 'General',
+      pl: 'Ogólne', // Polish
+      ro: 'General', // Romanian
+      cz: 'Obecné', // Czech
+      ni: 'General' // Nigerian
     },
     image: `${baseUrl}/images/categories/General.webp`,
     href: '/videos-list/general',
@@ -22,7 +26,11 @@ export const Categories = {
       fr: 'Éducatif',
       id: 'Pendidikan',
       th: 'การศึกษา',
-      es: 'Educativo'
+      es: 'Educativo',
+      pl: 'Edukacyjne', // Polish
+      ro: 'Educațional', // Romanian
+      cz: 'Vzdělávací', // Czech
+      ni: 'Educational' // Nigerian
     },
     image: `${baseUrl}/images/categories/Educational.webp`,
     href: '/videos-list/educational',
@@ -35,7 +43,11 @@ export const Categories = {
       fr: 'Chansons',
       id: 'Lagu',
       th: 'เพลง',
-      es: 'Canciones'
+      es: 'Canciones',
+      pl: 'Piosenki', // Polish
+      ro: 'Cântece', // Romanian
+      cz: 'Písně', // Czech
+      ni: 'Songs' // Nigerian
     },
     image: `${baseUrl}/images/categories/Songs.webp`,
     href: '/videos-list/songs',
@@ -48,7 +60,11 @@ export const Categories = {
       fr: 'Tendances',
       id: 'Sedang Tren',
       th: 'กำลังเป็นที่นิยม',
-      es: 'Tendencias'
+      es: 'Tendencias',
+      pl: 'Trendy', // Polish
+      ro: 'Tendințe', // Romanian
+      cz: 'Trendy', // Czech
+      ni: 'Trending' // Nigerian
     },
     image: `${baseUrl}/images/categories/Trending.webp`,
     href: '/videos-list/trending',
@@ -61,7 +77,11 @@ export const Categories = {
       fr: 'Mathématiques',
       id: 'Matematika',
       th: 'คณิตศาสตร์',
-      es: 'Matemáticas'
+      es: 'Matemáticas',
+      pl: 'Matematyka', // Polish
+      ro: 'Matematică', // Romanian
+      cz: 'Matematika', // Czech
+      ni: 'Math' // Nigerian
     },
     image: `${baseUrl}/images/categories/Math.webp`,
     href: '/videos-list/math',
@@ -74,7 +94,11 @@ export const Categories = {
       fr: 'Histoire',
       id: 'Sejarah',
       th: 'ประวัติศาสตร์',
-      es: 'Historia'
+      es: 'Historia',
+      pl: 'Historia', // Polish
+      ro: 'Istorie', // Romanian
+      cz: 'Historie', // Czech
+      ni: 'History' // Nigerian
     },
     image: `${baseUrl}/images/categories/History.webp`,
     href: '/videos-list/history',
@@ -87,7 +111,11 @@ export const Categories = {
       fr: 'Science',
       id: 'Ilmu Pengetahuan',
       th: 'วิทยาศาสตร์',
-      es: 'Ciencia'
+      es: 'Ciencia',
+      pl: 'Nauka', // Polish
+      ro: 'Știință', // Romanian
+      cz: 'Věda', // Czech
+      ni: 'Science' // Nigerian
     },
     image: `${baseUrl}/images/categories/Science.webp`,
     href: '/videos-list/science',
@@ -100,7 +128,11 @@ export const Categories = {
       fr: 'Art',
       id: 'Seni',
       th: 'ศิลปะ',
-      es: 'Arte'
+      es: 'Arte',
+      pl: 'Sztuka', // Polish
+      ro: 'Artă', // Romanian
+      cz: 'Umění', // Czech
+      ni: 'Art' // Nigerian
     },
     image: `${baseUrl}/images/categories/Art.webp`,
     href: '/videos-list/art',
@@ -113,7 +145,11 @@ export const Categories = {
       fr: 'Âges 3 à 5',
       id: 'Usia 3 hingga 5',
       th: 'อายุ 3 ถึง 5 ปี',
-      es: 'Edades 3 a 5'
+      es: 'Edades 3 a 5',
+      pl: 'Wiek 3 do 5', // Polish
+      ro: 'Vârstele 3-5', // Romanian
+      cz: 'Věk 3 až 5', // Czech
+      ni: 'Ages 3 to 5' // Nigerian
     },
     image: `${baseUrl}/images/categories/Age3_5.webp`,
     href: '/videos-list/age3_5',
@@ -126,7 +162,11 @@ export const Categories = {
       fr: 'Âges 5 à 8',
       id: 'Usia 5 hingga 8',
       th: 'อายุ 5 ถึง 8 ปี',
-      es: 'Edades 5 a 8'
+      es: 'Edades 5 a 8',
+      pl: 'Wiek 5 do 8', // Polish
+      ro: 'Vârstele 5-8', // Romanian
+      cz: 'Věk 5 až 8', // Czech
+      ni: 'Ages 5 to 8' // Nigerian
     },
     image: `${baseUrl}/images/categories/Age5_6.webp`,
     href: '/videos-list/age5_8',
@@ -139,12 +179,17 @@ export const Categories = {
       fr: 'Âges 8 à 10',
       id: 'Usia 8 hingga 10',
       th: 'อายุ 8 ถึง 10 ปี',
-      es: 'Edades 8 a 10'
+      es: 'Edades 8 a 10',
+      pl: 'Wiek 8 do 10', // Polish
+      ro: 'Vârstele 8-10', // Romanian
+      cz: 'Věk 8 až 10', // Czech
+      ni: 'Ages 8 to 10' // Nigerian
     },
     image: `${baseUrl}/images/categories/Age5_6.webp`,
     href: '/videos-list/age8_10',
   },
 };
+
 
 export const videos = [
   {
@@ -154,7 +199,11 @@ export const videos = [
       fr: '7 Merveilles du Monde',
       id: '7 Keajaiban Dunia',
       th: '7 สิ่งมหัศจรรย์ของโลก',
-      es: '7 Maravillas del Mundo'
+      es: '7 Maravillas del Mundo',
+      pl: '7 Cudów Świata',  // Polish
+      ro: '7 Minuni ale Lumii',  // Romanian
+      cz: '7 Divů Světa',  // Czech
+      ni: '7 Maravillas del Mundo'  // Nigerian (same as Spanish)
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/Krushna/7_Wonders_of_world_final_render.mp4',
     image: `${baseUrl}/images/thumbnails/7_Wonders_of_the_World.webp`,
@@ -167,7 +216,11 @@ export const videos = [
       fr: 'Les roues du bus',
       id: 'Roda di Bus',
       th: 'ล้อบนรถบัส',
-      es: 'Las ruedas del autobús'
+      es: 'Las ruedas del autobús',
+      pl: 'Koła na autobusie',  // Polish
+      ro: 'Roțile autobuzului',  // Romanian
+      cz: 'Kola na autobuse',  // Czech
+      ni: 'Kołami na autobusie'  // Nigerian (same as Polish)
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/Krushna/Comp+1.mp4',
     image: `${baseUrl}/images/thumbnails/Wheels on the bus1.webp`,
@@ -180,7 +233,11 @@ export const videos = [
       fr: 'London Bridge',
       id: 'London Bridge',
       th: 'สะพานลอนดอน',
-      es: 'Puente de Londres'
+      es: 'Puente de Londres',
+      pl: 'Most w Londynie',  // Polish
+      ro: 'Podul Londrei',  // Romanian
+      cz: 'Londýnský most',  // Czech
+      ni: 'London Bridge'  // Nigerian (same as English)
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/Krushna/London_bridge_video.mp4',
     image: `${baseUrl}/images/thumbnails/London_Bridge.webp`,
@@ -193,7 +250,11 @@ export const videos = [
       fr: 'Mois de l\'année',
       id: 'Bulan Tahun',
       th: 'เดือนของปี',
-      es: 'Meses del año'
+      es: 'Meses del año',
+      pl: 'Miesiące roku',  // Polish
+      ro: 'Lunile anului',  // Romanian
+      cz: 'Měsíce v roce',  // Czech
+      ni: 'Mesele anului'  // Nigerian (same as Romanian)
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/Krushna/Months_of_the_year_final_render.mp4',
     image: `${baseUrl}/images/thumbnails/Months_of_the_Year.webp`,
@@ -206,7 +267,11 @@ export const videos = [
       fr: 'Tisket Tasket',
       id: 'Tisket Tasket',
       th: 'Tisket Tasket',
-      es: 'Tisket Tasket'
+      es: 'Tisket Tasket',
+      pl: 'Tisket Tasket',  // Polish
+      ro: 'Tisket Tasket',  // Romanian
+      cz: 'Tisket Tasket',  // Czech
+      ni: 'Tisket Tasket'  // Nigerian (same as other languages)
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/Krushna/Tisket_tasket_final_renderf.mp4',
     image: `${baseUrl}/images/thumbnails/tisket_a_tasket1.webp`,
@@ -219,7 +284,11 @@ export const videos = [
       fr: 'Jours de la semaine',
       id: 'Hari Minggu',
       th: 'วันของสัปดาห์',
-      es: 'Días de la semana'
+      es: 'Días de la semana',
+      pl: 'Dni tygodnia',  // Polish
+      ro: 'Zilele săptămânii',  // Romanian
+      cz: 'Dny v týdnu',  // Czech
+      ni: 'Days of the Week'  // Nigerian (same as English)
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/Krushna/days+of+the+week.mp4',
     image: `${baseUrl}/images/thumbnails/Days_of_the_Week.webp`,
@@ -232,7 +301,11 @@ export const videos = [
       fr: 'Petites étoiles',
       id: 'Bintang Kecil',
       th: 'ดวงดาวเล็กๆ',
-      es: 'Pequeñas estrellas'
+      es: 'Pequeñas estrellas',
+      pl: 'Małe gwiazdy',  // Polish
+      ro: 'Steluțele mici',  // Romanian
+      cz: 'Malé hvězdy',  // Czech
+      ni: 'Little Stars'  // Nigerian (same as English)
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/Krushna/little_stars.mp4',
     image: `${baseUrl}/images/thumbnails/title_twinkle_twinkle_little_star1.webp`,
@@ -245,7 +318,11 @@ export const videos = [
       fr: 'Planètes du système solaire',
       id: 'Planet Tata Surya',
       th: 'ดาวเคราะห์ในระบบสุริยะ',
-      es: 'Planetas del sistema solar'
+      es: 'Planetas del sistema solar',
+      pl: 'Planety Układu Słonecznego',  // Polish
+      ro: 'Planetele sistemului solar',  // Romanian
+      cz: 'Planety sluneční soustavy',  // Czech
+      ni: 'Planets of the Solar System'  // Nigerian (same as English)
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/Krushna/main.mp4',
     image: `${baseUrl}/images/thumbnails/Planets_of_the_Solar_System.webp`,
@@ -258,12 +335,16 @@ export const videos = [
       fr: 'Reptiles',
       id: 'Reptil',
       th: 'สัตว์เลื้อยคลาน',
-      es: 'Reptiles'
+      es: 'Reptiles',
+      pl: 'Gady',  // Polish
+      ro: 'Reptile',  // Romanian
+      cz: 'Plazi',  // Czech
+      ni: 'Reptiles'  // Nigerian (same as English)
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/Krushna/reptiles_render.mp4',
     image: `${baseUrl}/images/thumbnails/Reptiles.webp`,
     categories: [Categories.SCIENCE, Categories.EDUCATIONAL]
-  },
+  },  
   {
     title: {
       en: 'I Spy ABC',
@@ -271,7 +352,11 @@ export const videos = [
       fr: 'Je découvre ABC',
       id: 'Saya Mengintip ABC',
       th: 'ฉันสอดแนม ABC',
-      es: 'Yo espío ABC'
+      es: 'Yo espío ABC',
+      pl: 'Szpieguję ABC',
+      ro: 'Eu spionez ABC',
+      cz: 'Špehuji ABC',
+      ni: 'Yo espío ABC'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/Mohammad/I+Spy+ABC(VID)_1.mp4',
     image: `${baseUrl}/images/thumbnails/I_Spy_ABC.webp`,
@@ -284,7 +369,11 @@ export const videos = [
       fr: 'Couleurs',
       id: 'Warna',
       th: 'สี',
-      es: 'Colores'
+      es: 'Colores',
+      pl: 'Kolory',
+      ro: 'Culori',
+      cz: 'Barvy',
+      ni: 'Colores'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/Mohammad/colors.mp4',
     image: `${baseUrl}/images/thumbnails/colours1.webp`,
@@ -297,7 +386,11 @@ export const videos = [
       fr: 'Écosystèmes',
       id: 'Ekosistem',
       th: 'ระบบนิเวศ',
-      es: 'Ecosistemas'
+      es: 'Ecosistemas',
+      pl: 'Ekosystemy',
+      ro: 'Ecosisteme',
+      cz: 'Ekosystémy',
+      ni: 'Ecosistemas'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/Ecosystems.mp4',
     image: `${baseUrl}/images/thumbnails/Ecosystem1.webp`,
@@ -310,7 +403,11 @@ export const videos = [
       fr: 'Écosystèmes - Exploration des différents écosystèmes et chaîne alimentaire',
       id: 'Ekosistem - Eksplorasi berbagai ekosistem dan rantai makanan',
       th: 'ระบบนิเวศ - สำรวจระบบนิเวศต่างๆ และห่วงโซ่อาหาร',
-      es: 'Ecosistemas - Exploración de diferentes ecosistemas y cadena alimentaria'
+      es: 'Ecosistemas - Exploración de diferentes ecosistemas y cadena alimentaria',
+      pl: 'Ekosystemy - Eksploracja różnych ekosystemów i łańcucha pokarmowego',
+      ro: 'Ecosisteme - Explorarea diferitelor ecosisteme și lanțul trofic',
+      cz: 'Ekosystémy - Průzkum různých ekosystémů a potravního řetězce',
+      ni: 'Ecosistemas - Exploración de diferentes ecosistemas y cadena alimentaria'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/Ecosystems-+Exploration+of+different+ecosystems+and+food+chain.mp4',
     image: `${baseUrl}/images/thumbnails/Ecosystems___Exploration_of_different_ecosystems_and_food_chain.webp`,
@@ -323,7 +420,11 @@ export const videos = [
       fr: 'Géométrie',
       id: 'Geometri',
       th: 'เรขาคณิต',
-      es: 'Geometría'
+      es: 'Geometría',
+      pl: 'Geometria',
+      ro: 'Geometrie',
+      cz: 'Geometrie',
+      ni: 'Geometría'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/Geometry.mp4',
     image: `${baseUrl}/images/thumbnails/Geometry.webp`,
@@ -336,7 +437,11 @@ export const videos = [
       fr: 'Maths - Multiplication',
       id: 'Matematika - Perkalian',
       th: 'คณิตศาสตร์ - การคูณ',
-      es: 'Matemáticas - Multiplicación'
+      es: 'Matemáticas - Multiplicación',
+      pl: 'Matematyka - Mnożenie',
+      ro: 'Matematica - Înmulțirea',
+      cz: 'Matematika - Násobení',
+      ni: 'Matemáticas - Multiplicación'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/Math-+maltiplication.mp4',
     image: `${baseUrl}/images/thumbnails/Math___Multiplication.webp`,
@@ -349,7 +454,11 @@ export const videos = [
       fr: 'Motifs et séquences',
       id: 'Pola dan Urutan',
       th: 'รูปแบบและลำดับ',
-      es: 'Patrones y Secuencias'
+      es: 'Patrones y Secuencias',
+      pl: 'Wzory i Sekwencje',
+      ro: 'Modele și Secvențe',
+      cz: 'Vzorce a Sekvence',
+      ni: 'Patrones y Secuencias'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/Patterns+and+sequences.mp4',
     image: `${baseUrl}/images/thumbnails/Patterns_and_Sequences.webp`,
@@ -362,7 +471,11 @@ export const videos = [
       fr: 'Sciences physiques - Notions de base sur la matière',
       id: 'Ilmu Fisika - Dasar-dasar Materi',
       th: 'วิทยาศาสตร์กายภาพ - พื้นฐานของสสาร',
-      es: 'Ciencia física - Fundamentos de la materia'
+      es: 'Ciencia física - Fundamentos de la materia',
+      pl: 'Nauki fizyczne - Podstawy materii',
+      ro: 'Științele fizice - Noțiuni de bază ale materiei',
+      cz: 'Fyzikální vědy - Základy hmoty',
+      ni: 'Ciencia física - Fundamentos de la materia'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/Physical+science-+Basics+of+matter.mp4',
     image: `${baseUrl}/images/thumbnails/Physical_Science___Basics_of_Matter.webp`,
@@ -375,7 +488,11 @@ export const videos = [
       fr: 'Études sociales - Les aides communautaires',
       id: 'Studi Sosial - Penolong Komunitas',
       th: 'สังคมศึกษา - ผู้ช่วยชุมชน',
-      es: 'Estudios sociales - Ayudantes de la comunidad'
+      es: 'Estudios sociales - Ayudantes de la comunidad',
+      pl: 'Badania społeczne - Pomocnicy społeczności',
+      ro: 'Studiu social - Ajutoare comunitare',
+      cz: 'Sociální studie - Pomocníci komunity',
+      ni: 'Ìmọ̀ Ẹ̀kọ́ Àjọṣe - Olùrànlọ́wọ́ Awujọ'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/Social+study+community+helpers.mp4',
     image: `${baseUrl}/images/thumbnails/Social_Study___Community_Helpers.webp`,
@@ -388,7 +505,11 @@ export const videos = [
       fr: 'Géographie',
       id: 'Geografi',
       th: 'ภูมิศาสตร์',
-      es: 'Geografía'
+      es: 'Geografía',
+      pl: 'Geografia',
+      ro: 'Geografie',
+      cz: 'Geografie',
+      ni: 'Ẹ̀kọ́ Ilẹ̀-Àkúnya'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/geography.mp4',
     image: `${baseUrl}/images/thumbnails/Geography1.webp`,
@@ -401,7 +522,11 @@ export const videos = [
       fr: 'Grammaire',
       id: 'Tata Bahasa',
       th: 'ไวยากรณ์',
-      es: 'Gramática'
+      es: 'Gramática',
+      pl: 'Gramatyka',
+      ro: 'Gramatica',
+      cz: 'Gramatika',
+      ni: 'Ìmọ̀ Ẹ̀dá-ọrọ'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/grammer.mp4',
     image: `${baseUrl}/images/thumbnails/Grammars1.webp`,
@@ -414,7 +539,11 @@ export const videos = [
       fr: 'Histoire',
       id: 'Sejarah',
       th: 'ประวัติศาสตร์',
-      es: 'Historia'
+      es: 'Historia',
+      pl: 'Historia',
+      ro: 'Istorie',
+      cz: 'Dějiny',
+      ni: 'Ìtàn'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/history.mp4',
     image: `${baseUrl}/images/thumbnails/History.webp`,
@@ -427,7 +556,11 @@ export const videos = [
       fr: 'Le corps humain',
       id: 'Tubuh Manusia',
       th: 'ร่างกายมนุษย์',
-      es: 'Cuerpo humano'
+      es: 'Cuerpo humano',
+      pl: 'Ludzkie ciało',
+      ro: 'Corpul uman',
+      cz: 'Lidské tělo',
+      ni: 'Ara Ẹ̀dá Ẹ̀dá'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/human+body.mp4',
     image: `${baseUrl}/images/thumbnails/Human_Body.webp`,
@@ -440,12 +573,16 @@ export const videos = [
       fr: 'Langue et alphabétisation',
       id: 'Bahasa dan Literasi',
       th: 'ภาษาและการรู้หนังสือ',
-      es: 'Lenguaje y alfabetización'
+      es: 'Lenguaje y alfabetización',
+      pl: 'Język i alfabetyzacja',
+      ro: 'Limba și alfabetizare',
+      cz: 'Jazyk a gramotnost',
+      ni: 'Èdá àti Ìmọ̀ Ọ̀rọ̀'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/language+and+literacy.mp4',
     image: `${baseUrl}/images/thumbnails/Language_and_Literacy.webp`,
     categories: [Categories.AGE3_5, Categories.EDUCATIONAL]
-  },
+  },  
   {
     title: {
       en: 'Math - Fractions and Decimals',
@@ -453,7 +590,11 @@ export const videos = [
       fr: 'Mathématiques - Fractions et décimales',
       id: 'Matematika - Pecahan dan Desimal',
       th: 'คณิตศาสตร์ - เศษส่วนและทศนิยม',
-      es: 'Matemáticas - Fracciones y decimales'
+      es: 'Matemáticas - Fracciones y decimales',
+      pl: 'Matematyka - Ułamki i liczby dziesiętne',
+      ro: 'Matematică - Fracții și zecimale',
+      cz: 'Matematika - Zlomek a desetinná čísla',
+      ni: 'Math - Ìpín àti Àdájọ̀'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/math-fractions+and+decimals.mp4',
     image: `${baseUrl}/images/thumbnails/Math___Fractions_and_Decimals.webp`,
@@ -466,7 +607,11 @@ export const videos = [
       fr: 'Musique et rythme',
       id: 'Musik dan Irama',
       th: 'ดนตรีและจังหวะ',
-      es: 'Música y ritmo'
+      es: 'Música y ritmo',
+      pl: 'Muzyka i rytm',
+      ro: 'Muzică și ritm',
+      cz: 'Hudba a rytmus',
+      ni: 'Orin àti Ìdájọ́'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/music+and+rhythm.mp4',
     image: `${baseUrl}/images/thumbnails/music_and_rhythm1.webp`,
@@ -479,7 +624,11 @@ export const videos = [
       fr: 'Éducation physique',
       id: 'Pendidikan Jasmani',
       th: 'พลศึกษา',
-      es: 'Educación física'
+      es: 'Educación física',
+      pl: 'Wychowanie fizyczne',
+      ro: 'Educație fizică',
+      cz: 'Tělesná výchova',
+      ni: 'Ẹ̀kọ́ Ìdárayá'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/3+to+5+Age+group/physical+education.mp4',
     image: `${baseUrl}/images/thumbnails/Physical_Education.webp`,
@@ -492,7 +641,11 @@ export const videos = [
       fr: 'Danser et se figer',
       id: 'Menari dan Membeku',
       th: 'เต้นรำและหยุดนิ่ง',
-      es: 'Bailar y congelarse'
+      es: 'Bailar y congelarse',
+      pl: 'Taniec i Zatrzymaj się',
+      ro: 'Dans și îngheț',
+      cz: 'Tanec a zmrazení',
+      ni: 'Dáǹsì àti Dídákẹ́'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/Dance+and+freez.mp4',
     image: `${baseUrl}/images/thumbnails/Dance_and_Freeze.webp`,
@@ -505,12 +658,16 @@ export const videos = [
       fr: 'Fruits',
       id: 'Buah-buahan',
       th: 'ผลไม้',
-      es: 'Frutas'
+      es: 'Frutas',
+      pl: 'Owoce',
+      ro: 'Fructe',
+      cz: 'Ovoce',
+      ni: 'Èso'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/Fruits.mp4',
     image: `${baseUrl}/images/thumbnails/Fruits.webp`,
     categories: [Categories.SCIENCE, Categories.AGE5_6, Categories.EDUCATIONAL]
-  },
+  },  
   {
     title: {
       en: 'Global and Maps',
@@ -518,7 +675,11 @@ export const videos = [
       fr: 'Monde et cartes',
       id: 'Global dan Peta',
       th: 'ทั่วโลกและแผนที่',
-      es: 'Global y mapas'
+      es: 'Global y mapas',
+      pl: 'Świat i mapy',
+      ro: 'Global și hărți',
+      cz: 'Svět a mapy',
+      ni: 'Àgbáyé àti Ìkànsí'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/Global+and+maps.mp4',
     image: `${baseUrl}/images/thumbnails/global_and_maps1.webp`,
@@ -531,7 +692,11 @@ export const videos = [
       fr: 'Éducation mathématique',
       id: 'Pendidikan Matematika',
       th: 'การศึกษาคณิตศาสตร์',
-      es: 'Educación matemática'
+      es: 'Educación matemática',
+      pl: 'Edukacja matematyczna',
+      ro: 'Educație matematică',
+      cz: 'Matematické vzdělávání',
+      ni: 'Ẹ̀kọ́ Ìṣirò'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/Mathamatics+education.mp4',
     image: `${baseUrl}/images/thumbnails/mathematics_education1.webp`,
@@ -544,7 +709,11 @@ export const videos = [
       fr: 'Couleurs de l\'arc-en-ciel',
       id: 'Warna Pelangi',
       th: 'สีรุ้ง',
-      es: 'Colores del arcoíris'
+      es: 'Colores del arcoíris',
+      pl: 'Kolory tęczy',
+      ro: 'Culorile curcubeului',
+      cz: 'Barvy duhy',
+      ni: 'Àwọ̀ Oòrùn'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/Ranbow+color.mp4',
     image: `${baseUrl}/images/thumbnails/Rainbow_Color.webp`,
@@ -557,7 +726,11 @@ export const videos = [
       fr: 'Formes',
       id: 'Bentuk',
       th: 'รูปร่าง',
-      es: 'Formas'
+      es: 'Formas',
+      pl: 'Kształty',
+      ro: 'Forme',
+      cz: 'Tvary',
+      ni: 'Àwòkọ́'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/Shapes+.mp4',
     image: `${baseUrl}/images/thumbnails/shapes1.webp`,
@@ -570,10 +743,14 @@ export const videos = [
       fr: 'Système solaire',
       id: 'Sistem Tata Surya',
       th: 'ระบบสุริยะ',
-      es: 'Sistema solar'
+      es: 'Sistema solar',
+      pl: 'Układ słoneczny',
+      ro: 'Sistemul solar',
+      cz: 'Sluneční soustava',
+      ni: 'Ẹ̀rọ Oòrùn'
     },
     videoSrc: 'https://kids-videos.s3.eu-west-1.amazonaws.com/YASSER/Solar+system.mp4',
     image: `${baseUrl}/images/thumbnails/Solar_System.webp`,
     categories: [Categories.SCIENCE, Categories.AGE5_6, Categories.EDUCATIONAL]
-  }
+  }  
 ];

@@ -6,7 +6,7 @@ export default function MovieCategoryListCard({ movie }) {
     <div className="category-list--item row">
       <div className="col-lg-4 mb-4 mb-lg-0">
         <div className="thumb me-3">
-          <Image src={movie.image} alt="card-img" />
+          <img src={movie.image} alt="card-img" />
         </div>
       </div>
       <div className="col-lg-6">

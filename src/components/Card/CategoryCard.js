@@ -7,7 +7,7 @@ export default function CategoryCard({ category }) {
   return (
     <div className="category-card">
       <div className="thumbnail">
-        <Image
+        <img
           src={category.image}
           alt="category"
           className="thumb-img w-100"

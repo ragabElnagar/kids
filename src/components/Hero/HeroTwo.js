@@ -35,13 +35,13 @@ export default function HeroTwo() {
               loop
             ></video>
             <div className="thumb">
-              <Image src={slide.bgImage} alt="banner-video" className="w-100" />
+              <img src={slide.bgImage} alt="banner-video" className="w-100" />
             </div>
             <div className="container-fluid position-absolute start-50 bottom-0 translate-middle-x z-3">
               <div className="row justify-content-between">
                 {/* <!-- Banner Image --> */}
                 <div className="col-md-5 d-md-block d-none">
-                  <Image
+                  <img
                     src={slide.image}
                     alt="hero-img"
                     className="ht-banner-img"

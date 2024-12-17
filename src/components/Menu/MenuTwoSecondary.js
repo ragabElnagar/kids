@@ -3,8 +3,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import logo from "@/../public/assets/images/logo.png";
-import profileImage from "@/../public/assets/images/icons/profile.svg";
+import logo from "/assets/images/logo.png";
+import profileImage from "/assets/images/icons/profile.svg";
 import { useThemeContext } from "@/context/ThemeContext";
 
 export default function HeroTwoSecondary() {
@@ -74,7 +74,7 @@ export default function HeroTwoSecondary() {
       </div>
       <div className="col-6 secondary-nav--left">
         <Link className="main-logo me-lg-5 me-4" href="/">
-          <Image src={logo} alt="img" />
+          <img src={logo} alt="img" />
         </Link>
         <button
           id="navigation-button"
@@ -122,7 +122,7 @@ export default function HeroTwoSecondary() {
           <span>Subscribe Now</span>
         </Link>
         <Link href="#" className="profile-btn d-inline-block">
-          <Image src={profileImage} alt="profile" className="w-100 h-100" />
+          <img src={profileImage} alt="profile" className="w-100 h-100" />
         </Link>
         <button
           id="navigation-button"

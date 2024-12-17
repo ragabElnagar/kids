@@ -10,7 +10,7 @@ export default function FeatureMovieCard({ movie }) {
     <div className="movie-card-small style-two">
       {/* <!-- Card Thumbnail --> */}
       <Link href={movie.href} className="thumb d-inline-block">
-        <Image src={movie.image} alt="card-img" />
+        <img src={movie.image} alt="card-img" />
       </Link>
       {/* <!-- Movie Details --> */}
       <div className="details details-two text-center m-0 pb-0">
@@ -21,15 +21,15 @@ export default function FeatureMovieCard({ movie }) {
         </h4>
         <ul className="movie-info">
           <li>
-            <Image src={starIcon} alt="star" />
+            <img src={starIcon} alt="star" />
             <span>{movie.rating}</span>
           </li>
           <li>
-            <Image src={clockIcon} alt="clock" />
+            <img src={clockIcon} alt="clock" />
             <span>{movie.duration}</span>
           </li>
           <li>
-            <Image src={qualityIcon} alt="4k" />
+            <img src={qualityIcon} alt="4k" />
             <span>{movie.quality} Quality</span>
           </li>
         </ul>

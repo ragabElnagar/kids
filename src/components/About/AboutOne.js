@@ -16,7 +16,7 @@ export default function AboutOne() {
           <p style={{color: 'var(--paragraph-color-dark)'}}>{data.descriptionTwo[lang]}</p>
         </div>
         {/* <div className="thumb mt-5">
-          <Image src={data.image} alt="thumb" />
+          <img src={data.image} alt="thumb" />
         </div> */}
       </div>
     </div>

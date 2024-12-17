@@ -1,8 +1,6 @@
 'use client';
 import Link from "next/link";
 import Image from "next/image";
-
-import logo from "@/../public/assets/images/logo.png";
 import { Categories } from "@/data/videos";
 import { useParams } from "next/navigation";
 import { Footer } from "@/data/pageTitles";
@@ -32,7 +30,12 @@ export default function FooterOne() {
           <div className="col-md-6 col-xl-4">
             <div className="footer-widget widget-about">
               <Link href="#" className="thumb d-inline-block">
-                <Image src={logo} alt="logo" style={{ width: '90px' }} />
+                <img
+                  src="/assets/images/logo.png" // Correct path starting from /public
+                  alt="logo"
+                  width={90}
+                  height={90}
+                />
               </Link>
             </div>
           </div>

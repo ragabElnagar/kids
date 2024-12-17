@@ -25,7 +25,7 @@ export default function BlogSidebar() {
           type="submit"
           className="blog-search-btn position-absolute top-50 end-0 translate-middle-y me-1"
         >
-          <Image src={searchIcon} alt="search" />
+          <img src={searchIcon} alt="search" />
         </button>
       </form>
       <div className="divider"></div>
@@ -38,14 +38,14 @@ export default function BlogSidebar() {
             <li key={index} className="row recent-post">
               <div className="col-4">
                 <div className="thumb">
-                  <Image src={post.image} alt="post" />
+                  <img src={post.image} alt="post" />
                 </div>
               </div>
               <div className="col-8 ps-0 align-self-center">
                 <div className="content">
                   <div className="d-flex align-item-center">
                     <div className="d-inline-flex align-items-center">
-                      <Image src={clockIcon} alt="time" />
+                      <img src={clockIcon} alt="time" />
                       <div className="time fs-14 ms-1 flex-shrink-0 text-uppercase">
                         {post.date}
                       </div>

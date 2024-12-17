@@ -50,16 +50,16 @@ export default function MovieSliderOne() {
           loop
         ></video>
         <div className="thumb">
-          <Image src={heroSliderTwoImage} alt="card-img" className="w-100" />
+          <img src={heroSliderTwoImage} alt="card-img" className="w-100" />
         </div>
         <div className="container position-absolute top-50 start-50 translate-middle mt-5">
           <div className="row justify-content-lg-between justify-content-center">
             <div className="col-lg-6 col-md-9 col-sm-12 align-self-center offset-lg-6">
               <div className="content text-center text-lg-start">
                 <div className="movie-info-list d-flex align-item-center justify-content-center justify-content-lg-start gap-1 gap-lg-2">
-                    <Image className="me-3" src={certificateImageOne} alt="img" />
-                    <Image className="me-3" src={certificateImageTwo} alt="img" />
-                    <Image className="me-3" src={certificateImageThree} alt="img" />
+                    <img className="me-3" src={certificateImageOne} alt="img" />
+                    <img className="me-3" src={certificateImageTwo} alt="img" />
+                    <img className="me-3" src={certificateImageThree} alt="img" />
                 </div>
                 <h2 className="banner-title fw-bold text-uppercase">
                   The Dark Beauty
@@ -123,16 +123,16 @@ export default function MovieSliderOne() {
           loop
         ></video>
         <div className="thumb">
-          <Image src={heroSliderOneImage} alt="card-img" className="w-100" />
+          <img src={heroSliderOneImage} alt="card-img" className="w-100" />
         </div>
         <div className="container position-absolute top-50 start-50 translate-middle mt-5">
           <div className="row justify-content-lg-between justify-content-center">
             <div className="col-lg-6 col-md-9 col-sm-12 align-self-center offset-lg-6">
               <div className="content text-center text-lg-start">
                 <div className="movie-info-list d-flex align-item-center justify-content-center justify-content-lg-start gap-1 gap-lg-2">
-                  <Image className="me-3" src={certificateImageOne} alt="img" />
-                  <Image className="me-3" src={certificateImageTwo} alt="img" />
-                  <Image className="me-3" src={certificateImageThree} alt="img" />
+                  <img className="me-3" src={certificateImageOne} alt="img" />
+                  <img className="me-3" src={certificateImageTwo} alt="img" />
+                  <img className="me-3" src={certificateImageThree} alt="img" />
                 </div>
                 <h2 className="banner-title fw-bold text-uppercase">
                   The Dark Beauty
@@ -196,16 +196,16 @@ export default function MovieSliderOne() {
           loop
         ></video>
         <div className="thumb">
-          <Image src={heroSliderOneImage} alt="card-img" className="w-100" />
+          <img src={heroSliderOneImage} alt="card-img" className="w-100" />
         </div>
         <div className="container position-absolute top-50 start-50 translate-middle mt-5">
           <div className="row justify-content-lg-between justify-content-center">
             <div className="col-lg-6 col-md-9 col-sm-12 align-self-center offset-lg-6">
               <div className="content text-center text-lg-start">
                 <div className="movie-info-list d-flex align-item-center justify-content-center justify-content-lg-start gap-1 gap-lg-2">
-                  <Image className="me-3" src={certificateImageOne} alt="img" />
-                  <Image className="me-3" src={certificateImageTwo} alt="img" />
-                  <Image className="me-3" src={certificateImageThree} alt="img" />
+                  <img className="me-3" src={certificateImageOne} alt="img" />
+                  <img className="me-3" src={certificateImageTwo} alt="img" />
+                  <img className="me-3" src={certificateImageThree} alt="img" />
                 </div>
                 <h2 className="banner-title fw-bold text-uppercase">
                   The Dark Beauty

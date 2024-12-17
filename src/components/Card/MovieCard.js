@@ -20,7 +20,7 @@ export default function MovieCard({ movie }) {
     <div>
     <div className="movie-card-small position-relative">
       {/* <!-- Card Thumbnail --> */}
-      <Image src={movie.image} alt="card-img" className="w-100" width={840} height={920} />
+      <img src={movie.image} alt="card-img" className="w-100" width={840} height={920} />
       {/* <!-- Card Badge --> */}
       {movie.isRibbon && (
         <div className="movie-badge position-absolute">

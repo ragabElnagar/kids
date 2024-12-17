@@ -56,7 +56,7 @@ export default function MovieSliderTwo() {
           className="rotate-movie-card position-relative swiper-slide"
         >
           <div className="thumb">
-            <Image src={movie.image} alt="card-img" />
+            <img src={movie.image} alt="card-img" />
           </div>
           {/* <!-- Play Button --> */}
           <Link
@@ -81,7 +81,7 @@ export default function MovieSliderTwo() {
               <ul className="certificates">
                 {movie.certificates.map((certificateImage, index) => (
                   <li key={index} className="d-inline-block me-4">
-                    <Image src={certificateImage} alt="certificates" />
+                    <img src={certificateImage} alt="certificates" />
                   </li>
                 ))}
               </ul>

@@ -26,7 +26,7 @@ export default function PricingList() {
                 }}
               >
                 <div className="pricing-card--header position-relative">
-                  <Image src={item.image} alt="regular" />
+                  <img src={item.image} alt="regular" />
                   <h4 className="title text-uppercase mt-3 mb-0">
                     {item.title}
                   </h4>
